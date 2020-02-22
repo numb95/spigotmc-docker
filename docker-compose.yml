@@ -1,0 +1,7 @@
+version: '3'
+services:
+  spigotmc:
+    image: numb95/spigotmc-docker
+    restart: always
+    volumes:
+       - ./data:/game
