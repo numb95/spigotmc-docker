@@ -11,4 +11,3 @@ WORKDIR /app
 COPY --from=builder /build/spigot.jar .
 WORKDIR /game
 CMD ["java","-Xms1G", "-Xmx1G", "-XX:+UseConcMarkSweepGC", "-jar", "/app/spigot.jar"]
-

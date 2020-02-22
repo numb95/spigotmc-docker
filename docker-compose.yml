@@ -5,3 +5,5 @@ services:
     restart: always
     volumes:
        - ./data:/game
+    ports:
+      - 25565:25565
